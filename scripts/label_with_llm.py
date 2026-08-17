@@ -97,8 +97,22 @@ def main():
     args = parser.parse_args()
 
     api_key = os.environ.get("OPENROUTER_API_KEY")
+    
+    # Fallback: check for .env file in root directory
+    if not api_key and os.path.exists(".env"):
+        with open(".env", "r", encoding="utf-8") as f:
+            for line in f:
+                if line.strip().startswith("OPENROUTER_API_KEY="):
+                    api_key = line.strip().split("=", 1)[1].strip('"\'')
+                    break
+
     if not api_key:
-        print("Warning: OPENROUTER_API_KEY env var not found. Please set it before running.")
+        print("❌ Error: OPENROUTER_API_KEY not found!")
+        print("Please place your API key in a `.env` file at the project root:")
+        print("  OPENROUTER_API_KEY=sk-or-v1-your-key-here")
+        print("Or set it in your terminal:")
+        print("  set OPENROUTER_API_KEY=sk-or-v1-your-key-here  (Windows)")
+        print("  export OPENROUTER_API_KEY=sk-or-v1-your-key-here (Linux/Mac)")
         return
 
     df = pd.read_csv(args.input)
