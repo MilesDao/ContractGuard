@@ -15,7 +15,7 @@ import pandas as pd
 from typing import Dict, List, Any
 
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-DEFAULT_MODEL = "google/gemini-flash-1.5"
+DEFAULT_MODEL = "openai/gpt-4o-mini"
 
 SYSTEM_PROMPT = """Bạn là một chuyên gia pháp lý và AI annotator cho hợp đồng Việt Nam.
 Nhiệm vụ của bạn là phân tích điều khoản hợp đồng và gán các nhãn rủi ro theo 8 danh mục sau:
@@ -58,8 +58,9 @@ def call_openrouter(clause_text: str, api_key: str, model: str = DEFAULT_MODEL) 
     }
     
     headers = {
-        "Authorization": f"Bearer {api_key}",
+        "Authorization": f"Bearer {api_key.strip()}",
         "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "HTTP-Referer": "https://contractguard.vn",
         "X-Title": "ContractGuard Auto-Labeler"
     }

@@ -47,7 +47,7 @@ def create_app() -> FastAPI:
                 "statusGrade": "RUI_RO_CAO",
                 "summary": {
                     "totalClauses": 5,
-                    "riskyClauses: 3",
+                    "riskyClauses": 3,
                     "criticalCount": 2,
                     "highCount": 1,
                     "mediumCount": 0

@@ -141,7 +141,7 @@ def main():
     use_fp16 = torch.cuda.is_available()
     training_args = TrainingArguments(
         output_dir=args.output_dir,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=args.lr,
         per_device_train_batch_size=args.batch_size,
@@ -162,7 +162,7 @@ def main():
         args=training_args,
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["test"],
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
         data_collator=DataCollatorWithPadding(tokenizer=tokenizer),  # ⚡ Dynamic Batching
         compute_metrics=compute_metrics,
     )
