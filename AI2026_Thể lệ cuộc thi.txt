@@ -1,0 +1,42 @@
+Bảng C:
+- Hình thức thi: Đội thi nộp hồ sơ dự án thuộc các nhóm chủ đề, lĩnh vực do Ban
+Tổ chức công bố. Dự án cần hướng tới giải quyết vấn đề thực tiễn, có giá trị ứng dụng
+trong học tập, đời sống, sản xuất, quản lý, dịch vụ công, phát triển kinh tế - xã hội hoặc
+phục vụ cộng đồng.
+- Yêu cầu sản phẩm:
++ Tài liệu dự án: Tệp định dạng PDF, tối đa 20 trang (theo mẫu của Ban Tổ chức).
++ Video thuyết trình (tối đa 05 phút): Đội thi trình bày vấn đề cần giải quyết,
+phương pháp xây dựng giải pháp, kết quả đạt được, giá trị thực tiễn và khả năng phát
+triển của sản phẩm.
++ Video demo (video trình diễn sản phẩm, tối đa 05 phút): Video ghi hình quá
+trình vận hành, các chức năng chính, kết quả xử lý, khả năng tích hợp và khả năng ứng
+dụng của sản phẩm.
++ Tài liệu, minh chứng kỹ thuật (nếu có).
+- Yêu cầu về năng lực:
++ Xác định, phân tích và mô hình hóa được bài toán hoặc vấn đề thực tiễn cần giải quyết;
++ Lựa chọn, xây dựng hoặc tích hợp phương pháp trí tuệ nhân tạo phù hợp với
+mục tiêu của sản phẩm;
++ Thu thập, xử lý, quản lý và sử dụng dữ liệu đúng mục đích, có nguồn gốc rõ
+ràng và tuân thủ quy định về quyền riêng tư, bản quyền, dữ liệu cá nhân;
++ Thiết kế được kiến trúc hệ thống, quy trình xử lý và phương án vận hành sản phẩm;
++ Huấn luyện, tinh chỉnh, tích hợp hoặc khai thác mô hình trí tuệ nhân tạo phù
+hợp với điều kiện thực tế của dự án;
++ Đánh giá được kết quả bằng chỉ số, tiêu chí hoặc phương pháp phù hợp;
++ Phân tích được lỗi, hạn chế, rủi ro, yêu cầu bảo mật và phương án kiểm soát an
+toàn của sản phẩm;
++ Làm rõ phần do đội thi tự xây dựng, phần được công cụ trí tuệ nhân tạo hỗ trợ
+và phần kế thừa từ nguồn mở hoặc tài nguyên có sẵn;
+6
++ Chứng minh được khả năng triển khai, mở rộng, duy trì hoặc ứng dụng sản phẩm
+trong thực tiễn.
+- Trọng tâm đánh giá:
++ Tính cấp thiết, giá trị thực tiễn và khả năng tác động của bài toán được lựa chọn;
++ Tính khoa học, tính logic và mức độ phù hợp của phương pháp tiếp cận;
++ Chất lượng dữ liệu, quy trình xử lý dữ liệu và tính hợp lệ của nguồn dữ liệu;
++ Mức độ làm chủ mô hình, thuật toán, công cụ, kiến trúc hệ thống và quy trình
+phát triển sản phẩm;
++ Kết quả thử nghiệm, phương pháp đánh giá và khả năng kiểm chứng đầu ra;
++ Năng lực phân tích, so sánh phương án, tối ưu hệ thống và xử lý rủi ro;
++ Tính sáng tạo, tính khả thi, khả năng triển khai, mở rộng và duy trì sản phẩm;
++ Mức độ bảo đảm an toàn thông tin, bảo mật dữ liệu, đạo đức trí tuệ nhân tạo và
+trách nhiệm của đội thi đối với sản phẩm dự thi.
